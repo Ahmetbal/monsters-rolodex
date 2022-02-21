@@ -24,6 +24,7 @@ class App extends React.Component {
     this.setState({ searchField: e.target.value });
   };
 
+  
   render() {
     const { monsters, searchField } = this.state;
     const filteredMonsters = monsters.filter((monster) =>
